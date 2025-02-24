@@ -1,2 +1,1 @@
-# DataDreamers専用のチャットボットを作成したい
-RAGの構築
+# Next.jsとTypescriptでチャットボットを作成

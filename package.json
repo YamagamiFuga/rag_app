@@ -1,0 +1,26 @@
+{
+  "name": "datadreamers_rag",
+  "version": "1.0.0",
+  "description": "RAGの構築",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "npx ts-node --project tsconfig.json ./main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.13",
+    "@datastax/astra-db-ts": "^1.5.0",
+    "@langchain/community": "^0.3.31",
+    "ai": "^4.1.45",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19",
+    "openai": "^4.85.2",
+    "puppeteer": "^24.2.1"
+  }
+}
